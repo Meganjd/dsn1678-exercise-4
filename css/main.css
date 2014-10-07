@@ -31,9 +31,11 @@ section {
 
 .js-dipper-fade {
 	/* add in all prefixes */
+	-webkit-animation: dipper-fade 1s linear forwards;
 	-moz-animation: dipper-fade 1s linear forwards;
 	-o-animation: dipper-fade 1s linear forwards;
-	-webkit-animation: dipper-fade 1s linear forwards;
+	-ms-animation: dipper-fade 1s linear forwards;
+	
 
 	/* animation-fill-mode: forwards;
 	Will tell the animations to stay at the end state when it's complete. 
@@ -41,7 +43,43 @@ section {
 }
 
 /* add in all prefixes */
-@-webkit-keyframes dipper-fade {
+@-webkit-keyframes dipper-fade{
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes dipper-fade{
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-o-keyframes dipper-fade{
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes dipper-fade{
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes dipper-fade{
 	0% {
 		opacity: 0;
 	}
@@ -62,7 +100,10 @@ section {
 }
 
 .js-shuttle-animate {
-	-webkit-animation: shuttle-animate 1s linear forwards;
+	-webkit-animation: shuttle-fade 1s linear forwards;
+	-moz-animation: shuttle-fade 1s linear forwards;
+	-o-animation: shuttle-fade 1s linear forwards;
+	-ms-animation: shuttle-fade 1s linear forwards;
 }
 
 @-webkit-keyframes shuttle-animate {
@@ -75,6 +116,56 @@ section {
 		opacity: 1;
 		transform: translateY(0px);
 	}
+}
+
+@-moz-keyframes shuttle-animate {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@-o-keyframes shuttle-animate {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@-ms-keyframes shuttle-animate {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes shuttle-animate {
+		0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
 }
 
 
