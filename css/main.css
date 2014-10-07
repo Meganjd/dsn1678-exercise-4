@@ -31,9 +31,10 @@ section {
 
 .js-dipper-fade {
 	-webkit-animation: dipper-fade 1s linear forwards;
-	-moz-animation: dipper-fade 1s linear forwards;
-	-o-animation: dipper-fade 1s linear forwards;
-	-ms-animation: dipper-fade 1s linear forwards;
+	-moz-webkit-animation: dipper-fade 1s linear forwards;
+	-o-webkit-animation: dipper-fade 1s linear forwards;
+	-ms-webkit-animation: dipper-fade 1s linear forwards;
+	animation: dipper-fade 1s linear forwards;
 	
 
 	/* animation-fill-mode: forwards;
@@ -51,7 +52,7 @@ section {
 	}
 }
 
-@-moz-keyframes dipper-fade{
+@-moz-webkit-keyframes dipper-fade{
 	0% {
 		opacity: 0;
 	}
@@ -60,7 +61,7 @@ section {
 	}
 }
 
-@-o-keyframes dipper-fade{
+@-o-webkit-keyframes dipper-fade{
 	0% {
 		opacity: 0;
 	}
@@ -69,7 +70,7 @@ section {
 	}
 }
 
-@-ms-keyframes dipper-fade{
+@-ms-webkit-keyframes dipper-fade{
 	0% {
 		opacity: 0;
 	}
@@ -98,14 +99,15 @@ section {
 	background-size: cover;
 }
 
-.js-shuttle-animate {
+.js-shuttle-animation {
 	-webkit-animation: shuttle-fade 1s linear forwards;
-	-moz-animation: shuttle-fade 1s linear forwards;
-	-o-animation: shuttle-fade 1s linear forwards;
-	-ms-animation: shuttle-fade 1s linear forwards;
+	-moz-webkit-animation: shuttle-fade 1s linear forwards;
+	-o-webkit-animation: shuttle-fade 1s linear forwards;
+	-ms-webkit-animation: shuttle-fade 1s linear forwards;
+	animation: shuttle-fade 1s linear forwards;
 }
 
-@-webkit-keyframes shuttle-animate {
+@-webkit-keyframes shuttle-animation {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -117,7 +119,7 @@ section {
 	}
 }
 
-@-moz-keyframes shuttle-animate {
+@-moz-webkit-keyframes shuttle-animation {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -129,7 +131,7 @@ section {
 	}
 }
 
-@-o-keyframes shuttle-animate {
+@-o-webkit-keyframes shuttle-animation {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -141,7 +143,7 @@ section {
 	}
 }
 
-@-ms-keyframes shuttle-animate {
+@-ms-webkit-keyframes shuttle-animation {
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
@@ -153,7 +155,7 @@ section {
 	}
 }
 
-@keyframes shuttle-animate {
+@keyframes shuttle-animation {
 		0% {
 		opacity: 0;
 		transform: translateY(100px);

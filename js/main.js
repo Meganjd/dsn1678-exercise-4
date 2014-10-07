@@ -22,7 +22,7 @@ $dipperSection.waypoint(function () {
 
 
 $shuttleSection.waypoint(function () {
-	$shuttle.addClass('js-shuttle-animate');
+	$shuttle.addClass('js-shuttle-animation');
 
 
 }, { offset: '50%' });
