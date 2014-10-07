@@ -30,7 +30,6 @@ section {
 
 
 .js-dipper-fade {
-	/* add in all prefixes */
 	-webkit-animation: dipper-fade 1s linear forwards;
 	-moz-animation: dipper-fade 1s linear forwards;
 	-o-animation: dipper-fade 1s linear forwards;
@@ -42,7 +41,7 @@ section {
 	*/
 }
 
-/* add in all prefixes */
+
 @-webkit-keyframes dipper-fade{
 	0% {
 		opacity: 0;
@@ -165,7 +164,3 @@ section {
 		transform: translateY(0px);
 	}
 }
-
-}
-
-
