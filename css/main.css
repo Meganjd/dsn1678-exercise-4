@@ -31,6 +31,8 @@ section {
 
 .js-dipper-fade {
 	/* add in all prefixes */
+	-moz-animation: dipper-fade 1s linear forwards;
+	-o-animation: dipper-fade 1s linear forwards;
 	-webkit-animation: dipper-fade 1s linear forwards;
 
 	/* animation-fill-mode: forwards;
